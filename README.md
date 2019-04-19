@@ -10,7 +10,7 @@
 
 `./getToken.py <Your Tesla account email> <Your Tesla account password>`
 
-This script will request a new token you can use for subsequent requests.  It will also store it in token.txt along with other useful info
+This script will request a new token you can use for subsequent requests.  It will also store it in token.txt along with other useful info.
 If you've already acquired a token, it will just be retrieved from your `token.txt` file.
 
 `./decoder.py <Your authentication token (acquire with getToken.py)>`
