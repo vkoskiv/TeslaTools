@@ -16,6 +16,7 @@ If you've already acquired a token, it will just be retrieved from your `token.t
 `./decoder.py <Your authentication token (acquire with getToken.py)>`
 
 This script will retrieve a list of your vehicles and decode the feature codes to a readable format.
+If an unrecognized option code is encountered, it will be denoted with a question mark.
 
 Example output for a 2017 Model S 75D:
 
@@ -96,6 +97,12 @@ MyModelS (XXXXXXXXXXXXXXXXX):
     YFCC  = ?
     COFI  = ?
 ~~~
+
+## Contributing:
+
+If you know of any option codes that aren't recognized here, please add them to the `features.json` file and file a PR.
+
+Feel free to improve these scripts and file a PR as well.
 
 ## Security:
 
